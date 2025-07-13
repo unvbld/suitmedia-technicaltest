@@ -12,21 +12,21 @@ part 'app_routes.dart';
 class AppPages {
   AppPages._();
 
-  static const INITIAL = Routes.FIRST_SCREEN;
+  static const initial = Routes.firstScreen;
 
   static final routes = [
     GetPage(
-      name: _Paths.FIRST_SCREEN,
+      name: _Paths.firstScreen,
       page: () => const FirstScreenView(),
       binding: FirstScreenBinding(),
     ),
     GetPage(
-      name: _Paths.SECOND_SCREEN,
+      name: _Paths.secondScreen,
       page: () => const SecondScreenView(),
       binding: SecondScreenBinding(),
     ),
     GetPage(
-      name: _Paths.THIRD_SCREEN,
+      name: _Paths.thirdScreen,
       page: () => const ThirdScreenView(),
       binding: ThirdScreenBinding(),
     ),

@@ -3,14 +3,14 @@ part of 'app_pages.dart';
 
 abstract class Routes {
   Routes._();
-  static const FIRST_SCREEN = _Paths.FIRST_SCREEN;
-  static const SECOND_SCREEN = _Paths.SECOND_SCREEN;
-  static const THIRD_SCREEN = _Paths.THIRD_SCREEN;
+  static const firstScreen = _Paths.firstScreen;
+  static const secondScreen = _Paths.secondScreen;
+  static const thirdScreen = _Paths.thirdScreen;
 }
 
 abstract class _Paths {
   _Paths._();
-  static const FIRST_SCREEN = '/first-screen';
-  static const SECOND_SCREEN = '/second-screen';
-  static const THIRD_SCREEN = '/third-screen';
+  static const firstScreen = '/first-screen';
+  static const secondScreen = '/second-screen';
+  static const thirdScreen = '/third-screen';
 }
